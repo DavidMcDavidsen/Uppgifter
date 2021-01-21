@@ -1,0 +1,14 @@
+#cirkel{
+	display: block;
+	height: 100vh;
+	width: 100vh;
+	background-color: gold;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+	left: 25%;
+}
+
+body{
+	background-color: cornflowerblue;
+}
