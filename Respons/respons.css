@@ -2,6 +2,7 @@ body{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 50vh 50vh;
+	margin: 0;
 }
 
 header{
@@ -19,17 +20,47 @@ section{
 footer{
 	background-color: yellow;
 }
-
-@media screen and (max-width : 500px)
+@media screen and (max-width : 900px)
 {
+	header{
+		background-color: blue;
+	}
+	
+	main{
+		background-color: red;
+	}
+	
+	section{
+		background-color: yellow;
+	}
+	
+	footer{
+		background-color: green;
+	}
 	h1{
-		font-size: 8px;
+		font-size: 20px;
 	}
 }
 
-@media screen and (max-width : 1000px)
+@media screen and (max-width : 600px)
 {
+	header{
+		background-color: yellow;
+	}
+	
+	main{
+		background-color: green;
+	}
+	
+	section {
+		background-color: blue;
+	}
+	
+	footer{
+		background-color: red;
+	}
+	
 	h1{
-		font-size: 15px;
+		font-size: 10px;
 	}
 }
